@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Solution</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>/* Reset default margin and padding */
+    body, header, main, section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .section {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #000;
+    }
+    
+    /* Media queries for responsive design */
+    @media (max-width: 991px) {
+        .section {
+            flex-basis: 50%;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .section {
+            flex-basis: 100%;
+        }
+    }
+    </style>
+<body>
+    <header>
+        <h1>Module 2 Solution</h1>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Chicken</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section class="section">
+            <h2>Beef</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section class="section">
+            <h2>Sushi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+    </main>
+</body>
+</html>
